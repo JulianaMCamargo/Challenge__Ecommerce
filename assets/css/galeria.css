@@ -1,0 +1,71 @@
+.galeria{
+    background-color: var(--preto-05);
+}
+
+.galeria__topo{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.galeria__titulo{
+    color: var(--preto-100);
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.galeria__vertudo{
+    color: var(--cor-principal-100);
+    font-size: 0.875rem;
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+.galeria__grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 1rem;
+
+    padding-bottom: 1rem;
+}
+
+.galeria__itens{
+    width: 45%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+.imagem01{background-image: url(../img/produtos/novidades-sueter.jpg); background-size: contain;}
+.imagem02{background-image: url(../img/produtos/novidades-camiseta.jpg); background-size: contain; background-repeat: no-repeat;}
+.imagem03{background-image: url(../img/produtos/novidades-calca.jpg); background-size: contain; background-repeat: no-repeat;}
+
+.galeria__itens-img{
+    width: 100%;
+    height: 174px;
+}
+
+.galeria__itens-descricao{
+    color: var(--preto-100);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.galeria__itens-valor{
+    color: var(--preto-100);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.galeria__itens-verproduto{
+    color: var(--cor-principal-100);
+    font-size: 0.875rem;
+    font-weight: 700;
+
+    text-decoration: none;
+}

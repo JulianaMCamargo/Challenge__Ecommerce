@@ -1,0 +1,25 @@
+.rodape__menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape__menu-logo{
+    width: 80%;
+}
+
+.rodape__menu-navegacao{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    text-align: center;
+}
+
+.rodape__navegacao-link{
+    text-decoration: none;
+
+    color: var(--preto-100);
+    font-size: 1rem;
+    font-weight: 500;
+}
