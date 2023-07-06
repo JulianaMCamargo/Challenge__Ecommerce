@@ -1,0 +1,92 @@
+[
+    {
+        "nome": "Sueter, M",
+        "preco": 29.9,
+        "link": "#",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/Vue.js.png",
+        "alt": "Sueter",
+        "quantidade": 50,
+        "categoria": "novidade",
+        "tipo": "blusa"
+    },
+    {
+        "nome": "Sueter, M",
+        "preco": 29.9,
+        "link": "#",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/postgres.png",
+        "alt": "Sueter",
+        "quantidade": 50,
+        "categoria": "novidade",
+        "tipo": "blusa"
+    },
+    {
+        "nome": "Sueter, M",
+        "preco": 29.9,
+        "link": "#",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/Sass.png",
+        "alt": "Sueter",
+        "quantidade": 50,
+        "categoria": "novidade",
+        "tipo": "blusa"
+    },
+    {
+        "nome": "Sueter, M",
+        "preco": 29.9,
+        "link": "#",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/Vue.js.png",
+        "alt": "Sueter",
+        "quantidade": 50,
+        "categoria": "novidade",
+        "tipo": "blusa"
+    },
+    {
+        "nome": "Sueter, M",
+        "preco": 29.9,
+        "link": "#",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/postgres.png",
+        "alt": "Sueter",
+        "quantidade": 50,
+        "categoria": "novidade",
+        "tipo": "blusa"
+    },
+    {
+        "nome": "Sueter, M",
+        "preco": 29.9,
+        "link": "#",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/Sass.png",
+        "alt": "Sueter",
+        "quantidade": 50,
+        "categoria": "novidade",
+        "tipo": "blusa"
+    },
+    {
+        "nome": "Sueter, M",
+        "preco": 29.9,
+        "link": "#",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/Vue.js.png",
+        "alt": "Sueter",
+        "quantidade": 50,
+        "categoria": "novidade",
+        "tipo": "blusa"
+    },
+    {
+        "nome": "Sueter, M",
+        "preco": 29.9,
+        "link": "#",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/postgres.png",
+        "alt": "Sueter",
+        "quantidade": 50,
+        "categoria": "novidade",
+        "tipo": "blusa"
+    },
+    {
+        "nome": "Sueter, M",
+        "preco": 29.9,
+        "link": "#",
+        "imagem": "https://caelum-online-public.s3.amazonaws.com/2628-js/Sass.png",
+        "alt": "Sueter",
+        "quantidade": 50,
+        "categoria": "novidade",
+        "tipo": "blusa"
+    }
+]
