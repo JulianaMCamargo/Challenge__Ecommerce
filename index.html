@@ -1,33 +1,193 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>Loja da Ju</title>
-    <meta name="viewport" content="width=device-width">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/cabecalho.css">
-    <link rel="stylesheet" href="./assets/css/banner.css">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Second Hand</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/cabecalho.css">
+        <link rel="stylesheet" href="assets/css/banner.css">
+        <link rel="stylesheet" href="assets/css/galeria.css">
+        <link rel="stylesheet" href="assets/css/rodape.css">
+        <link rel="stylesheet" href="assets/css/rodape__menu.css">
+        <link rel="stylesheet" href="assets/css/rodape__fomulario.css">
+    </head>
 
-<body>
-    <header class="cabecalho container">
-        <img src="./assets/img/logo-alurageek.svg" alt="Logo da Loja da Ju" class="cabecalho__logo">
-        <a href="#" class="cabecalho__botao-login">Login</a>
-        <div class="cabecalho__busca">
-            <input type="text" class="cabecalho__busca-input">
-            <img src="./assets/img/busca-icone.svg" alt="Lupa" class="cabecalho__busca-icone">
-        </div>
-    </header>
+    <body>
+        <header class="cabecalho container">
+            <img src="assets/img/logo-alurageek.svg" alt="Logo da Alura Geek" class="cabecalho__logo">
+            <a href="#" class="cabecalho__botao-login">Login</a>
+            <div class="cabecalho__busca">
+                <input type="text" class="cabecalho__busca-input">
+                <img src="assets/img/busca-icone.svg" alt="Lupa" class="cabecalho__busca-icone">
+            </div>
+        </header>
 
-    <div class="banner container">
-        <h1 class="banner__titulo">Dezembro Promocional</h1>
-        <p class="banner__texto">Produtos selecionados com 33% de desconto</p>
-        <a href="#" class="banner__botao">Ver Consoles</a>
-    </div>
+        <main>
+            <section class="banner container">
+                <h1 class="banner__titulo">Dezembro Promocional</h1>
+                <p class="banner__texto">Produtos selecionados com 33% de desconto</p>
+                <a href="#consoles" class="banner__botao">Ver Consoles</a>
+            </section>
+        
+            <section class="galeria">
+                
+                <div class="galeria__starWars container">
+                    
+                    <div class="galeria__topo">
+                        <h2 class="galeria__titulo">Star Wars</h3>
+                        <a href="#" class="galeria__vertudo">Ver tudo</a>
+                    </div>
 
-</body>
+                    <ul class="galeria__grid" id="produtos">
+                        <li class="galeria__itens">
+                            <img src="./assets/img/produtos/starWars-1.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+
+                        <li class="galeria__itens">
+                            <img src="./assets/img/produtos/starWars-2.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+
+                        <li class="galeria__itens">
+                            <img src="./assets/img/produtos/starWars-3.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+
+                        <li class="galeria__itens">
+                            <img src="./assets/img/produtos/starWars-4.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="galeria__consoles container" id="consoles">
+                    <div class="galeria__topo">
+                        <h2 class="galeria__titulo">Consoles</h3>
+                        <a href="#" class="galeria__vertudo">Ver tudo</a>
+                    </div>
+
+                    <ul class="galeria__grid">
+                        <li class="galeria__itens">
+                            <img src="./assets/img/produtos/console-1.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+
+                        <li class="galeria__itens">
+                            <img src="./assets/img/produtos/console-2.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+
+                        <li class="galeria__itens">
+                            <img src="./assets/img/produtos/console-3.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+
+                        <li class="galeria__itens">
+                            <img src="./assets/img/produtos/console-4.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="galeria__diversos container">
+                    <div class="galeria__topo">
+                        <h2 class="galeria__titulo">Diversos</h3>
+                        <a href="#" class="galeria__vertudo">Ver tudo</a>
+                    </div>
+
+                    <ul class="galeria__grid">
+                        <li class="galeria__itens">
+                            <img src="./assets/img/produtos/diverson-1.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+
+                        <li class="galeria__itens">
+                            <img src="./assets/img/produtos/diverson-2.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+
+                        <li class="galeria__itens">
+                            <img src="./assets/img/produtos/diverson-3.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+
+                        <li class="galeria__itens">
+                            <img src="./assets/img/produtos/diverson-4.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="rodape">
+
+            <section class="rodape__menu container">
+                <img src="./assets/img/logo-alurageek.svg" alt="Logo da Alura Geek" class="rodape__menu-logo">
+                
+                <nav>
+                    <ul class="rodape__menu-navegacao">
+                        <li><a href="#" class="rodape__navegacao-link">Quem somos nós</a></li>
+                        <li><a href="#" class="rodape__navegacao-link">Política de privacidade</a></li>
+                        <li><a href="#" class="rodape__navegacao-link">Programa fidelidade</a></li>
+                        <li><a href="#" class="rodape__navegacao-link">Nossas lojas</a></li>
+                        <li><a href="#" class="rodape__navegacao-link">Quero ser franqueado</a></li>
+                        <li><a href="#" class="rodape__navegacao-link">Anuncie aqui</a></li>
+                    </ul>
+                </nav>
+            </section>
+                
+            <form class="rodape-formulario container">
+                <h7 class="rodape__formulario-titulo">Fale conosco</h7>
+                
+                <div class="rodape__formulario-nome">
+                    <label for="nome" >Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="André Lisboa" minlength="3" required>
+                    <spam class="mensagem-erro"></spam>
+                </div>
+
+                <div class="rodape__formulario-mensagem">
+                    <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required></textarea>
+                    <spam class="mensagem-erro"></spam>
+                </div>
+                <input type="submit" class="rodape__formulario-botao" placeholder="Enviar Mensagem" value="Enviar mensagem">
+            </form>
+    
+            <section class="desenvolvedor">
+                <h8>Desenvolvido por Juliana Camargo</br>2023</h8>
+            </section>
+
+        </footer>
+    </body>
 </html>
