@@ -1,8 +1,3 @@
-.rodape{
-    display: flex;
-    flex-direction: column;
-}
-
 .rodape__formulario-titulo{
     color: var(--preto-100, #464646);
     font-size: 1rem;
@@ -64,4 +59,16 @@
     width: 50%;
     padding: 0.75rem 1rem;
     box-sizing: border-box;
+}
+
+@media screen and (min-width:768px) {
+    .rodape__formulario{
+        flex-grow: 1;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .rodape__formulario{
+        padding-left: 0;
+    }
 }

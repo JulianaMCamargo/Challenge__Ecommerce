@@ -5,7 +5,8 @@
 }
 
 .rodape__menu-logo{
-    width: 80%;
+    width: 50%;
+    padding-bottom: 1rem;
 }
 
 .rodape__menu-navegacao{
@@ -22,4 +23,26 @@
     color: var(--preto-100);
     font-size: 1rem;
     font-weight: 500;
+}
+
+@media screen and (min-width:768px){
+    .rodape__menu-navegacao{
+        align-items: start;
+    }
+
+    .rodape__menu-logo{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .rodape__menu{
+        flex-direction: row;
+        padding-right: 0;
+        gap: 112px;
+    }
+
+    .rodape__menu-logo{
+        width: 176px;
+    }
 }

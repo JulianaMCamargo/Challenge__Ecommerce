@@ -1,6 +1,8 @@
 .cabecalho {
     display: flex;
+    align-items: center;    
     justify-content: space-between;
+    background-color: var(--preto-branco);
 }
 
 .cabecalho__botao-login{
@@ -30,4 +32,48 @@
 
 .cabecalho__busca-icone{
     width: 24px;
+}
+
+@media screen and (min-width:768px) {
+    .cabecalho__busca{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        background-color: var(--preto-05);
+        
+        border-radius: 20px;
+
+        width: 272px;
+        padding: 8px 16px;
+    }
+
+    .cabecalho__busca-input{
+        background-color: var(--preto-05);
+        display: block;
+        border: none;
+    }
+
+    .cabecalho__busca-icone{
+        opacity: 0.7;
+    }
+
+    .cabecalho__botao-login{
+        order: 1;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .cabecalho{
+        justify-content: start;
+        gap: 2rem;
+    }
+
+    .cabecalho__logo{
+        width: 176px;
+    }
+
+    .cabecalho__botao-login{
+        margin-left: auto;
+    }
 }
