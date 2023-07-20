@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Second Hand</title>
+        <title>Alura Geek</title>
         <meta name="viewport" content="width=device-width">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,21 +10,15 @@
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/base.css">
         <link rel="stylesheet" href="assets/css/cabecalho.css">
-        <link rel="stylesheet" href="assets/css/banner.css">
-        <link rel="stylesheet" href="assets/css/galeria.css">
+        <link rel="stylesheet" href="assets/css/pagina-principal/banner.css">
+        <link rel="stylesheet" href="assets/css/pagina-principal/galeria.css">
         <link rel="stylesheet" href="assets/css/rodape.css">
         <link rel="stylesheet" href="assets/css/rodape__menu.css">
         <link rel="stylesheet" href="assets/css/rodape__fomulario.css">
     </head>
 
     <body>
-        <header class="cabecalho container">
-            <img src="assets/img/logo-alurageek.svg" alt="Logo da Alura Geek" class="cabecalho__logo">
-            <a href="#" class="cabecalho__botao-login">Login</a>
-            <div class="cabecalho__busca">
-                <input type="text" class="cabecalho__busca-input">
-                <img src="assets/img/busca-icone.svg" alt="Lupa" class="cabecalho__busca-icone">
-            </div>
+        <header class="cabecalho container" data-cabecalho>
         </header>
 
         <main>
@@ -33,7 +27,7 @@
                 <p class="banner__texto">Produtos selecionados com 33% de desconto</p>
                 <a href="#consoles" class="banner__botao">Ver Consoles</a>
             </section>
-        
+ 
             <section class="galeria">
                 
                 <div class="galeria__starWars container">
@@ -43,12 +37,12 @@
                         <a href="#" class="galeria__vertudo">Ver tudo</a>
                     </div>
 
-                    <ul class="galeria__grid" id="produtos">
+                    <ul class="galeria__grid" id="starwars">
                         <li class="galeria__itens">
                             <img src="./assets/img/produtos/starWars-1.png" alt="" class="galeria__itens-img imagem01">
                             <h3 class="galeria__itens-descricao">Produto XYZ</h3>
                             <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                            <a href="paginas/produto.html" class="galeria__itens-verproduto">Ver Produto</a>
                         </li>
 
                         <li class="galeria__itens">
@@ -67,6 +61,20 @@
 
                         <li class="galeria__itens">
                             <img src="./assets/img/produtos/starWars-4.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+
+                        <li class="galeria__itens desktop">
+                            <img src="./assets/img/produtos/starWars-5.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+
+                        <li class="galeria__itens desktop">
+                            <img src="./assets/img/produtos/starWars-6.png" alt="" class="galeria__itens-img imagem01">
                             <h3 class="galeria__itens-descricao">Produto XYZ</h3>
                             <p class="galeria__itens-valor">R$ 60,00</p>
                             <a href="" class="galeria__itens-verproduto">Ver Produto</a>
@@ -108,6 +116,20 @@
                             <p class="galeria__itens-valor">R$ 60,00</p>
                             <a href="" class="galeria__itens-verproduto">Ver Produto</a>
                         </li>
+
+                        <li class="galeria__itens desktop">
+                            <img src="./assets/img/produtos/console-5.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+
+                        <li class="galeria__itens desktop">
+                            <img src="./assets/img/produtos/console-6.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
                     </ul>
                 </div>
         
@@ -145,49 +167,32 @@
                             <p class="galeria__itens-valor">R$ 60,00</p>
                             <a href="" class="galeria__itens-verproduto">Ver Produto</a>
                         </li>
+
+                        <li class="galeria__itens desktop">
+                            <img src="./assets/img/produtos/diverson-5.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
+
+                        <li class="galeria__itens desktop">
+                            <img src="./assets/img/produtos/diverson-6.png" alt="" class="galeria__itens-img imagem01">
+                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
+                            <p class="galeria__itens-valor">R$ 60,00</p>
+                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
+                        </li>
                     </ul>
                 </div>
             </section>
 
         </main>
 
-        <footer class="rodape">
-
-            <section class="rodape__menu container">
-                <img src="./assets/img/logo-alurageek.svg" alt="Logo da Alura Geek" class="rodape__menu-logo">
-                
-                <nav>
-                    <ul class="rodape__menu-navegacao">
-                        <li><a href="#" class="rodape__navegacao-link">Quem somos nós</a></li>
-                        <li><a href="#" class="rodape__navegacao-link">Política de privacidade</a></li>
-                        <li><a href="#" class="rodape__navegacao-link">Programa fidelidade</a></li>
-                        <li><a href="#" class="rodape__navegacao-link">Nossas lojas</a></li>
-                        <li><a href="#" class="rodape__navegacao-link">Quero ser franqueado</a></li>
-                        <li><a href="#" class="rodape__navegacao-link">Anuncie aqui</a></li>
-                    </ul>
-                </nav>
-            </section>
-                
-            <form class="rodape-formulario container">
-                <h7 class="rodape__formulario-titulo">Fale conosco</h7>
-                
-                <div class="rodape__formulario-nome">
-                    <label for="nome" >Nome</label>
-                    <input type="text" id="nome" name="nome" placeholder="André Lisboa" minlength="3" required>
-                    <spam class="mensagem-erro"></spam>
-                </div>
-
-                <div class="rodape__formulario-mensagem">
-                    <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" required></textarea>
-                    <spam class="mensagem-erro"></spam>
-                </div>
-                <input type="submit" class="rodape__formulario-botao" placeholder="Enviar Mensagem" value="Enviar mensagem">
-            </form>
-    
-            <section class="desenvolvedor">
-                <h8>Desenvolvido por Juliana Camargo</br>2023</h8>
-            </section>
-
+        <footer class="rodape" data-rodape>
+            
         </footer>
+        
+        <script src="app/imprimeCabecalho.js"></script>
+        <script src="app/imprimeRodape.js"></script>
+        <script src="app/valida-forms-fale-conosco.js"></script>
     </body>
 </html>
