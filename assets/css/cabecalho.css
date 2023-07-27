@@ -5,7 +5,7 @@
     background-color: var(--preto-branco);
 }
 
-.cabecalho__botao-login{
+.cabecalho__botao-login,.cabecalho__botao-menu-admin{
     color: var(--cor-principal-100);
     font-size: 0.875rem;
     font-weight: 600;
@@ -58,7 +58,7 @@
         opacity: 0.7;
     }
 
-    .cabecalho__botao-login{
+    .cabecalho__botao-login, .cabecalho__botao-menu-admin{
         order: 1;
     }
 }
@@ -73,7 +73,7 @@
         width: 176px;
     }
 
-    .cabecalho__botao-login{
+    .cabecalho__botao-login, .cabecalho__botao-menu-admin{
         margin-left: auto;
     }
 }
