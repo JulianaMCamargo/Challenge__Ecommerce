@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Alura Geek</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/reset.css">
+        <link rel="stylesheet" href="../assets/css/base.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho.css">
+        <link rel="stylesheet" href="../assets/css/footer/rodape.css">
+        <link rel="stylesheet" href="../assets/css/footer/rodape-menu.css">
+        <link rel="stylesheet" href="../assets/css/footer/rodape-fomulario.css">
+        <link rel="stylesheet" href="../assets/css/paginaLogin.css">
+    </head>
+
+    <body>
+        <header class="cabecalho container" data-cabecalho>
+        </header>
+    
+        <main>
+            <form class="login__formulario" data-formulario-login>
+                <h1 class="login__formulario-titulo">Iniciar Sessão</h1>
+                <fieldset class="login__formulario-campo">
+                    <input id="email" name="email" type="email" class="login__formulario-email" placeholder="Escreva seu email" required>
+                    <spam class="mensagem-erro"></spam>
+                </fieldset>
+                
+                <fieldset class="login__formulario-campo">
+                    <input name="senha" type="password" class="login__formulario-senha" placeholder="Escreva sua senha" required>
+                    <spam class="mensagem-erro"></spam>
+                </fieldset>
+
+                <input value="Entrar" type="submit" class="login__formulario-botao">
+            </form>
+        </main>
+        
+        <footer class="rodape" data-rodape>
+        </footer>
+
+        <script src="../app/imprime-cabecalho.js"></script>
+        <script src="../app/imprime-rodape.js"></script>
+        <script src="../app/valida-forms-login.js"></script>
+    </body>
+
