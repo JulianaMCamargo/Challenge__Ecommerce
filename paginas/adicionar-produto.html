@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Adicionar Produtos|Alura Geek</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/reset.css">
+        <link rel="stylesheet" href="../assets/css/base.css">
+        <link rel="stylesheet" href="../assets/css/cabecalho.css">
+        <link rel="stylesheet" href="../assets/css/footer/rodape.css">
+        <link rel="stylesheet" href="../assets/css/footer/rodape-menu.css">
+        <link rel="stylesheet" href="../assets/css/footer/rodape-fomulario.css">
+        <link rel="stylesheet" href="../assets/css/paginaAdicionarProduto.css">
+
+    <body>
+        <header class="cabecalho container" data-cabecalho>
+        </header>
+
+        <main>
+            <form class="adicionar-produto__formulario container" data-forms-adicionar-produto>
+                <h1 class="adicionar-produto__formulario-titulo">Adicionar novo produto</h1>
+                
+                <fieldset class="adicionar-produto__formulario-campo">
+                    <label for="imagem">URL da imagem</label>
+                    <input name="imagem" id="imagem" type="url" class="input" data-imagemUrl required>
+                    <spam class="mensagem-erro"></spam>
+                </fieldset>
+                
+                <fieldset class="adicionar-produto__formulario-campo">
+                    <label for="categoria">Categoria</label>
+                    <input name="categoria" id="categoria" type="text" class="input" data-categoria required>
+                    <spam class="mensagem-erro"></spam>
+                </fieldset>
+
+                <fieldset class="adicionar-produto__formulario-campo">
+                    <label for="nome-produto">Nome do produto</label>
+                    <input name="nome" id="nome-produto" type="text" class="input" maxlength="20" data-nomeProduto required>
+                    <spam class="mensagem-erro"></spam>
+                </fieldset>
+                
+                <fieldset class="adicionar-produto__formulario-campo">
+                    <label for="preco">Preço do produto</label>
+                    <input name="preco" id="preco" type="number" class="input" data-preco required>
+                    <spam class="mensagem-erro"></spam>
+                </fieldset>
+
+                <fieldset>
+                    <textarea name="descricao" id="descricao" type="text" class="adicionar-produto__formulario-campo input" maxlength="150" placeholder="Descrição do produto" data-descricao required></textarea>
+                    <spam class="mensagem-erro"></spam>
+                </fieldset>
+                
+
+                <input value="Adicionar produto" type="submit" class="adicionar-produto__formulario-botao">
+            </form>
+        </main>
+    
+        <footer class="rodape" data-rodape>
+        </footer>
+
+        <script src="../app/imprime-cabecalho.js"></script>
+        <script src="../app/imprime-rodape.js"></script>
+        <script src="../app/valida-forms-adicionar-produtos.js" type="module"></script>
+        <script src="../app/adiciona-produto.js" type="module"></script>
+    </body>
