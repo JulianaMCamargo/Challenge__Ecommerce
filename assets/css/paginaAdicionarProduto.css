@@ -1,0 +1,95 @@
+.adicionar-produto__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    background-color: var(--preto-05);
+
+    padding: 160px 40px;
+
+    font-family: var(--fonte-principal);
+}
+
+.adicionar-produto__formulario-titulo{
+    color: var(--preto-100, #464646);
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.adicionar-produto__formulario-campo, .adicionar-produto__formulario-botao{
+    color: var(--preto-50);
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    padding: 1rem 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    
+    border-radius: 4px;
+
+    box-shadow: 0px 2px 1px 0px var(--preto-30);
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    background-color: var(--preto-branco);
+}
+
+.input{
+    border: none;
+    width: 100%;
+
+    font-size: 1rem;
+
+    color: var(--preto-100, #464646);
+}
+
+.input:focus{
+    outline: none;
+}
+
+.adicionar-produto__formulario-campo::placeholder{
+    color: var(--preto-50);
+
+    font-family: var(--fonte-principal);
+}
+
+.adicionar-produto__formulario-botao{
+    background-color: var(--cor-principal-100);
+    color: var(--preto-branco);
+
+    border: none;
+
+    box-shadow: none;
+    
+    align-items: center;
+
+    transition: 150ms;
+}
+
+.adicionar-produto__formulario-botao:hover{
+    background-color: var(--cor-principal-200);
+    
+    cursor: pointer;
+}
+
+.cabecalho__botao-login{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .adicionar-produto__formulario{
+        padding: 4rem 0;
+    }
+
+    .adicionar-produto__formulario-titulo{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    } 
+
+    .adicionar-produto__formulario-campo, .adicionar-produto__formulario-botao{
+        width: 559px;
+    }
+}
