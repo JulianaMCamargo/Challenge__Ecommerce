@@ -10,11 +10,12 @@
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/base.css">
         <link rel="stylesheet" href="assets/css/cabecalho.css">
-        <link rel="stylesheet" href="assets/css/pagina-principal/banner.css">
-        <link rel="stylesheet" href="assets/css/pagina-principal/galeria.css">
-        <link rel="stylesheet" href="assets/css/rodape.css">
-        <link rel="stylesheet" href="assets/css/rodape__menu.css">
-        <link rel="stylesheet" href="assets/css/rodape__fomulario.css">
+        <link rel="stylesheet" href="assets/css/paginaInicial/banner.css">
+        <link rel="stylesheet" href="assets/css/paginaInicial/galeria.css">
+        <link rel="stylesheet" href="assets/css/footer/rodape.css">
+        <link rel="stylesheet" href="assets/css/footer/rodape-fomulario.css">
+        <link rel="stylesheet" href="assets/css/footer/rodape-menu.css">
+        <link rel="stylesheet" href="assets/css/produto.css">
     </head>
 
     <body>
@@ -34,165 +35,42 @@
                     
                     <div class="galeria__topo">
                         <h2 class="galeria__titulo">Star Wars</h3>
-                        <a href="#" class="galeria__vertudo">Ver tudo</a>
+                        <a href="paginas/ver-tudo.html" class="galeria__vertudo">Ver tudo</a>
                     </div>
-
-                    <ul class="galeria__grid" id="starwars">
-                        <li class="galeria__itens">
-                            <img src="./assets/img/produtos/starWars-1.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="paginas/produto.html" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens">
-                            <img src="./assets/img/produtos/starWars-2.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens">
-                            <img src="./assets/img/produtos/starWars-3.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens">
-                            <img src="./assets/img/produtos/starWars-4.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens desktop">
-                            <img src="./assets/img/produtos/starWars-5.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens desktop">
-                            <img src="./assets/img/produtos/starWars-6.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
+                    <ul class="galeria__grid categoria" data-categoria="starwars" id="secao-starwars">
                     </ul>
                 </div>
         
-                <div class="galeria__consoles container" id="consoles">
+                <div class="galeria__consoles container">
                     <div class="galeria__topo">
-                        <h2 class="galeria__titulo">Consoles</h3>
-                        <a href="#" class="galeria__vertudo">Ver tudo</a>
+                        <h2 class="galeria__titulo" id="consoles">Consoles</h3>
+                        <a href="paginas/ver-tudo.html" class="galeria__vertudo">Ver tudo</a>
                     </div>
-
-                    <ul class="galeria__grid">
-                        <li class="galeria__itens">
-                            <img src="./assets/img/produtos/console-1.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens">
-                            <img src="./assets/img/produtos/console-2.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens">
-                            <img src="./assets/img/produtos/console-3.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens">
-                            <img src="./assets/img/produtos/console-4.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens desktop">
-                            <img src="./assets/img/produtos/console-5.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens desktop">
-                            <img src="./assets/img/produtos/console-6.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
+                    <ul class="galeria__grid categoria" data-categoria="consoles" id="secao-consoles">
                     </ul>
                 </div>
         
                 <div class="galeria__diversos container">
                     <div class="galeria__topo">
                         <h2 class="galeria__titulo">Diversos</h3>
-                        <a href="#" class="galeria__vertudo">Ver tudo</a>
+                        <a href="paginas/ver-tudo.html" class="galeria__vertudo">Ver tudo</a>
                     </div>
-
-                    <ul class="galeria__grid">
-                        <li class="galeria__itens">
-                            <img src="./assets/img/produtos/diverson-1.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens">
-                            <img src="./assets/img/produtos/diverson-2.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens">
-                            <img src="./assets/img/produtos/diverson-3.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens">
-                            <img src="./assets/img/produtos/diverson-4.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens desktop">
-                            <img src="./assets/img/produtos/diverson-5.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
-
-                        <li class="galeria__itens desktop">
-                            <img src="./assets/img/produtos/diverson-6.png" alt="" class="galeria__itens-img imagem01">
-                            <h3 class="galeria__itens-descricao">Produto XYZ</h3>
-                            <p class="galeria__itens-valor">R$ 60,00</p>
-                            <a href="" class="galeria__itens-verproduto">Ver Produto</a>
-                        </li>
+                    <ul class="galeria__grid categoria" data-categoria="diversos" id="secao-diversos">
                     </ul>
                 </div>
+                
             </section>
 
         </main>
 
-        <footer class="rodape" data-rodape>
-            
+        <footer class="rodape" data-rodape>     
         </footer>
         
-        <script src="app/imprimeCabecalho.js"></script>
-        <script src="app/imprimeRodape.js"></script>
+        <script src="app/imprime-cabecalho.js"></script>
+        <script src="app/imprime-rodape.js"></script>
         <script src="app/valida-forms-fale-conosco.js"></script>
+        <script type="module" src="app/filtra-categoria.js"></script>
+        <script type="module" src="app/imprime-produtos.js"></script>
+        <script type="module" src="app/pesquisa-produto.js"></script>
     </body>
 </html>
